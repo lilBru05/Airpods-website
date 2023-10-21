@@ -1,15 +1,10 @@
-/*Google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
-/*----- VARIABLES CSS Y SASS -----*/
-/*Variables css*/
-/*Colores*/
 :root {
   --first-color: #1D1D1F;
   --second-color: #0071E3;
   --white-color: #FFF;
 }
 
-/*Fuente y tipografia*/
 :root {
   --body-font: 'Roboto', sans-serif;
   --biggest-font-size: 3.5rem;
@@ -29,7 +24,6 @@
   }
 }
 
-/*z index*/
 :root {
   --z-back: -10;
   --z-normal: 1;
@@ -38,7 +32,6 @@
   --z-modal: 1000;
 }
 
-/*----- BASE -----*/
 *, ::before, ::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -74,7 +67,6 @@ img {
   height: auto;
 }
 
-/*----- LAYOUT -----*/
 .bd-grid {
   max-width: 1200px;
   margin-left: 1rem;
@@ -90,7 +82,6 @@ img {
   background-color: var(--white-color);
 }
 
-/*----- PAGES -----*/
 .nav {
   height: 3rem;
   display: -webkit-box;
@@ -163,12 +154,10 @@ img {
   border-radius: 2rem;
 }
 
-/*Aparecer menu*/
 .show {
   top: 3rem;
 }
 
-/*Home*/
 .home {
   height: calc(100vh - 3rem);
   display: -ms-grid;
@@ -236,7 +225,6 @@ img {
   width: 2rem;
 }
 
-/*ANIMATION*/
 .airpod1 {
   -webkit-animation: airpod1 3s infinite;
           animation: airpod1 3s infinite;
@@ -275,7 +263,6 @@ img {
   }
 }
 
-/*Details airpods*/
 .details {
   height: calc(100vh - 3rem);
   display: -ms-grid;
@@ -321,7 +308,6 @@ img {
   width: 218px;
 }
 
-/*ANIMATION*/
 .airpods {
   -webkit-animation: airpods 3s infinite;
           animation: airpods 3s infinite;
@@ -341,7 +327,6 @@ img {
   }
 }
 
-/*----- MEDIA QUERIES -----*/
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -413,7 +398,7 @@ img {
     grid-area: scroll;
     padding-bottom: 2rem;
   }
-  /*DETAILS*/
+
   .details {
     -webkit-column-gap: 4rem;
             column-gap: 4rem;
